@@ -9,9 +9,13 @@ class Web extends CI_Controller
     }
     public function index()
     {
-        $data['judul'] = "Tugas Pertemuan 3, Membuat template Sederhana";
-        
-        $this->load->view('v_index');
+        //$data['judul'] = "Tugas Pertemuan 3, Membuat template sederhana";
+        $data=array(
+            'pert' => "Pertemuan 3",
+            'jenis' => "template sederhana"
+        );
+
+        $this->load->view('v_index', $data);
     }
     public function about()
     {

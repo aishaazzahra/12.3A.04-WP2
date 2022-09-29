@@ -12,7 +12,8 @@
         <header>
             <hgroup>
                 <h1>Berita-Kodingan</h1>
-                <h2>Tugas Pertemuan 3, Membuat Template Sederhana</h2>
+                <h2>Tugas: <?php echo $pert; ?>, Membuat: <?php echo $jenis; ?></h2>
+
             </hgroup>
             <nav>
                 <ul>
