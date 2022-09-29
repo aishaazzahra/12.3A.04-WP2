@@ -7,12 +7,12 @@
     <title>Berita-Kodingan</title>
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
 </head>
-<body>
+<body> 
     <div id="wrapper">
         <header>
             <hgroup>
                 <h1>Berita-Kodingan</h1>
-                <h2>Semua Berita Ngoding Ada Disini</h2>
+                <h2>Tugas Pertemuan 3, Membuat Template Sederhana</h2>
             </hgroup>
             <nav>
                 <ul>
